@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     static {
         System.loadLibrary("modbus485controll");
     }
-
     private ActivityMainBinding binding;
 
     @Override
