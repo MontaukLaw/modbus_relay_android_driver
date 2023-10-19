@@ -11,6 +11,7 @@ import com.example.modbus485controll.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     SerialPortUtil mSerialPortUtil;
+
     // Used to load the 'modbus485controll' library on application startup.
     static {
         System.loadLibrary("modbus485controll");
